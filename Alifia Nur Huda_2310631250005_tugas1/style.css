@@ -1,0 +1,76 @@
+*{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+}
+
+h1.judul1{
+    text-align: center;
+    line-height: 1.0;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+h1.judul2{
+    text-align: center;
+    line-height: 1.0;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.P2{
+    text-align: center;
+    line-height: none;
+    font-size: 90%;
+}
+
+.daftarIsi{
+    color: blue;
+}
+li{
+    color: black;
+    margin-bottom: -10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2.Tebal{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h3.Tebal{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.P3{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#large-s {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.spasi{
+    margin-top: -25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.kutipan{
+    font-size: small;
+    font-weight: 100;
+    margin-left: 10%;
+}

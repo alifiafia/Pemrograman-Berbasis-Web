@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anies Baswedan’s Journey</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { font-family: 'Times New Roman', Times, serif; font-size: larger;}
+        .navbar { font-weight: 500; top: 0; z-index: 1000; }
+        .navbar-brand {
+            font-weight: 650; 
+            font-size: 30px;
+        } 
+        h5 {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .collapse {
+            font-size: 20px;
+        }
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+        .about {
+            margin: 0 auto;
+            display: inline-flex;
+            border-radius: 10px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+    
+        .active-link {
+            color: #0d6efd !important;
+            font-weight: bold;
+        }
+
+        .content-section {display: none; }
+    </style>
+</head> 
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light  border-bottom border-top border-3 fixed-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="https://static.vecteezy.com/system/resources/previews/023/546/334/non_2x/cute-owl-reading-a-book-free-png.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top">Anies Baswedan's Journey
+            </a>
+            <ul class="nav nav-underline" style="font-size: 24px;">
+                <li class="nav-item"><a class="nav-link text-info-emphasis" onclick="showContent('home', this);" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-info-emphasis" onclick="showContent('about', this);" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link text-info-emphasis" onclick="showContent('contact', this);" href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- KONTEN HOME -->
+     <br><br><br>
+    <div class="container mt-3 content-section" id="home">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" >
+                    <img src="https://fajar.co.id/wp-content/uploads/2023/08/IMG_20230803_095730.jpg" class="card-img-top" alt="Profil Anies Baswedan" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="margin-top: -10px; margin-bottom: 10px;">Profil & Biografi</h5>
+                        <p class="card-subtitle text-body-secondary" style="font-size: 20px; margin-bottom: 12px;">Biodata | 14 Maret 2025</p>
+                        <p class="card-text">Anies Baswedan lahir pada 7 Mei 1969 di Kuningan, Jawa Barat. Ia lulusan UGM, University of Maryland, dan Northern Illinois University. Sebelum berpolitik, ia menjadi Rektor Universitas Paramadina dan penggagas Indonesia Mengajar. Anies menjabat sebagai Mendikbud (2014-2016) sebelum terpilih sebagai Gubernur DKI Jakarta (2017-2022). Selama kariernya, ia dikenal sebagai pemimpin dengan visi pendidikan, inovasi transportasi, dan tata kota berkelanjutan.</p>
+                        <a href="#" class="btn btn-primary btn-block">Klik Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://asset.kompas.com/crops/oo9Thf_z4eRxqGKkICZb_Dw8gPk=/0x0:0x0/750x500/data/photo/2020/01/17/5e210a466ce85.jpg" class="card-img-top" alt="Program" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="margin-top: -10px; margin-bottom: 10px;">Program Saat Menjabat</h5>
+                        <p class="card-subtitle text-body-secondary" style="font-size: 20px; margin-bottom: 12px;">Program | 14 Maret 2025</p>
+                        <p class="card-text"> KJP Plus – Bantuan pendidikan bagi siswa kurang mampu 
+                            <br>OK OCE – Program wirausaha berbasis komunitas 
+                            <br>Jak Lingko – Integrasi transportasi publik 
+                            <br> Revitalisasi trotoar & RTH 
+                            <br>Penanganan banjir & pengelolaan sampah 
+                            <br>Formula E Jakarta – Promosi pariwisata dan investasi</p>
+                            <br><br>
+                            <a href="#" class="btn btn-primary btn-block">Klik Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn0-production-images-kly.akamaized.net/sh96G1iXNzsajnOsY28yThh9uRg=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1741246/original/085844800_1508163381-20171016-Pidato-Anies-AY2.jpg" class="card-img-top" alt="Pidato" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="margin-top: -10px; margin-bottom: 10px;">Pidato & Wawancara</h5>
+                        <p class="card-subtitle text-body-secondary" style="font-size: 20px; margin-bottom: 12px;">Pidato | 14 Maret 2025</p>
+                        <p class="card-text">Anies dikenal sebagai orator ulung dengan pidato inspiratif:
+                            <br>🎙 Pidato kemenangan 2017 – Persatuan & keadilan sosial
+                            <br>🎙 Harvard Speech – Kepemimpinan & pendidikan di Indonesia
+                            <br>🎙 Wawancara internasional – Bloomberg, BBC, tentang demokrasi & kebijakan Jakarta.
+                            <br><br><br><br>
+                        </p>
+                        <a href="#" class="btn btn-primary btn-block">Klik Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/R.9950c9a4c3d39593a2557cf3c42cabc8?rik=mI1lOKG9hYylNQ&riu=http%3a%2f%2fgudangpemain.com%2fwp-content%2fuploads%2f2017%2f10%2fAnies-Baswedan-9.jpg&ehk=g9oF1HAvkXWkU20ym02FLqAhDQNrp8K5wAzd%2bAqwyZA%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Gagasan" style="height: 300px; object-fit: cover;" >
+                    <div class="card-body">
+                        <h5 class="card-title" style="margin-top: -10px; margin-bottom: 10px;">Pemikiran & Gagasan</h5>
+                        <p class="card-subtitle text-body-secondary" style="font-size: 20px; margin-bottom: 12px;">Gagasan | 14 Maret 2025</p>
+                        <p class="card-text">Anies Baswedan memiliki berbagai pemikiran progresif, di antaranya:
+                            <br>Keyakinan bahwa pendidikan berkualitas adalah hak setiap anak, tidak hanya bagi mereka yang mampu secara ekonomi.
+                            <br>Konsep pembangunan Jakarta yang lebih ramah lingkungan dan berorientasi pada kesejahteraan masyarakat.
+                            <br>Mendorong ekonomi berbasis komunitas dan kebijakan yang mendukung ...
+                            <!-- <br>Memanfaatkan pendekatan partisipatif dengan berbagai elemen masyarakat dalam pengambilan keputusan. --> 
+                        </p>
+                        <a href="#" class="btn btn-primary btn-block">Klik Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://fajar.co.id/wp-content/uploads/2023/08/IMG_20230803_095730.jpg" class="card-img-top" alt="Galeri" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="margin-top: -10px; margin-bottom: 10px;">Galeri</h5>
+                        <p class="card-subtitle text-body-secondary" style="font-size: 20px; margin-bottom: 12px;">Galeri | 14 Maret 2025</p>
+                        <p class="card-text">Selama menjabat, Anies memiliki berbagai dokumentasi kegiatan, seperti:
+                            <br> 📷 Revitalisasi trotoar di Sudirman-Thamrin
+                            <br>📷 Peluncuran MRT & LRT Jakarta
+                            <br> 📷 Pertemuan dengan tokoh dunia seperti Elon Musk dan Bill Gates
+                            <br> 📷 Kunjungan ke masyarakat dalam program urban farming dan UMKM.
+                            <br><br><br>
+                        </p>
+                        <a href="#" class="btn btn-primary btn-block">Klik Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn0-production-images-kly.akamaized.net/sh96G1iXNzsajnOsY28yThh9uRg=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1741246/original/085844800_1508163381-20171016-Pidato-Anies-AY2.jpg" class="card-img-top" alt="Kontak" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="margin-top: -10px; margin-bottom: 10px;">Sosial media</h5>
+                        <p class="card-subtitle text-body-secondary" style="font-size: 20px; margin-bottom: 12px;">Akun Pribadi | 14 Maret 2025</p>
+                        <p class="card-text">🔹 Instagram: @aniesbaswedan
+                            <br>🔹 Twitter/X: @aniesbaswedan
+                            <br>🔹 Facebook: Anies Rasyid Baswedan
+                            <br>🔹 Website Resmi: www.aniesbaswedan.com
+                            <br>🔹 Email: contact@aniesbaswedan.com
+                        <br><br><br><br><br><br>
+                        </p>
+                        <a href="#" class="btn btn-primary">Klik Selengkapnya</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- KONTEN ABOUT -->
+    <div class="container mt-3 content-section" id="about">
+        <div class="row g-0 bg-body-secondary position-relative about" style="width: 80rem;">
+            <div class="p-4 ps-md-6">
+                <h5 class="mt-0">Get To Know Anies Baswedan</h5>
+                <p>Website ini menyajikan informasi lengkap mengenai perjalanan, pemikiran, dan kebijakan Anies Baswedan dalam berbagai aspek. Anda akan menemukan biografi singkat tentang latar belakang, pendidikan, serta perjalanan kariernya, mulai dari akademisi, menteri pendidikan, hingga gubernur DKI Jakarta.</p>
+                <a href="">Sosial Media</a>
+                <br><br>
+                <p>Kami juga menampilkan berbagai program yang ia jalankan saat menjabat, seperti Kartu Jakarta Pintar (KJP), OK-OCE, dan revitalisasi transportasi umum. Selain itu, tersedia kumpulan pidato dan wawancara yang merekam pandangannya tentang isu-isu sosial, politik, dan pembangunan.  Bagian pemikiran dan gagasan merangkum visi Anies dalam pendidikan, demokrasi, dan tata kelola kota. Galeri foto serta video menampilkan dokumentasi momen penting selama kepemimpinannya. Terakhir, Anda dapat menghubungi tim melalui halaman kontak atau mengikuti media sosial untuk mendapatkan informasi terbaru tentang aktivitas dan pandangan Anies Baswedan.
+                <br>Anies Rasyid Baswedan, lahir pada 7 Mei 1969, adalah seorang akademisi, aktivis, dan politikus Indonesia yang menjabat sebagai Gubernur DKI Jakarta periode 2017–2022. Sebelum terjun ke dunia politik, Anies berkarier sebagai dosen dan akademikus, serta menjabat sebagai Rektor Universitas Paramadina selama delapan tahun. Ia juga dikenal sebagai pendiri gerakan Indonesia Mengajar, sebuah program yang mengirim lulusan universitas untuk mengajar di berbagai pelosok Indonesia.
+                <br>Selama menjabat sebagai Gubernur DKI Jakarta, Anies Baswedan meluncurkan berbagai program, termasuk Kartu Jakarta Pintar (KJP) dan program OK-OCE yang bertujuan mendorong kewirausahaan. Ia juga fokus pada revitalisasi transportasi umum dan infrastruktur kota. Selain itu, Anies menerima berbagai penghargaan, seperti Lee Kuan Yew Exchange Fellow ke-72 dan masuk dalam daftar 100 Intelektual Dunia versi Majalah Foreign Policy.
+                <br>Pada tahun 2024, Anies mencalonkan diri dalam pemilihan presiden Indonesia dengan dukungan Partai Nasional Demokrat (NasDem) dan Muhaimin Iskandar sebagai calon wakil presiden. Meskipun demikian, ia menempati posisi kedua dalam pemilihan tersebut, kalah dari Prabowo Subianto..</p>
+            </div>
+        </div>  
+    </div>
+
+    <!-- KONTEN CONTACT -->
+    <div class="container mt-3 content-section" id="contact">
+        <h2>Contact Me</h2>
+        <p><em>If you need help, please contact us via the form below </em></p>
+        <form class="F1">
+            <div class="mb-3 mt-4">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control shadow-sm p-2 bg-light rounded" id="exampleInputEmail1" placeholder="Enter Email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="firstname1" class="form-label">First Name</label>
+                    <input type="text" class="form-control shadow-sm p-2 bg-light rounded" placeholder="First name">
+                </div>
+                <div class="col mb-3">
+                    <label for="lastname2" class="form-label">Last Name</label>
+                    <input type="text" class="form-control shadow-sm p-2 bg-light rounded" placeholder="Last name">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="formControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control shadow-sm p-2 bg-light rounded" id="formControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+
+    <footer class="footer mt-5">
+        <p>&copy; 2025 Alifia Nur Huda. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function showContent(contentId, element) {
+            // Sembunyikan all konten
+            document.querySelectorAll('.content-section').forEach(content => {
+                content.style.display = 'none';
+            });
+
+            // muncul konten yang sesuai
+            document.getElementById(contentId).style.display = 'block';
+
+            // Hapus warna aktif di semua navbar link
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active-link');
+            });
+
+            // Tambahkan warna aktif ke navbar yang diklik
+            element.classList.add('active-link');
+        }
+
+        // Default: Tampilkan Home saat halaman dimuat
+        document.addEventListener("DOMContentLoaded", function() {
+            showContent('home', document.querySelector('.nav-link'));
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

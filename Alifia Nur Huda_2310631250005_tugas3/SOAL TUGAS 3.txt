@@ -1,0 +1,10 @@
+Tanggal 04 Maret 2025 - online
+
+Tugas Praktikum 3 - halaman 42 modul praktikum
+
+
+3.6 Tugas 
+
+1. Buatlah program javascript untuk mencetak deret Fibonacci!
+2. Buatlah kalkulator dengan menggunakan javascript serta buatlah menggunakan arrow function dan operator yang terdiri dari (+-/*%)
+
